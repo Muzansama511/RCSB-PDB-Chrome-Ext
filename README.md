@@ -17,4 +17,4 @@ Accepts prompts regarding PDB like querying searches, downloading pdb/cif files 
 # How to add it to the browser
 1. Download the repository
    
-2. click on Extensions -> Manage Extensions -> Load Unpacked -> Select Chrome_Ext_RCSB folder
+2. click on Extensions -> Manage Extensions -> Load Unpacked -> Select chrome_Ext_RCSB folder
