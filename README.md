@@ -16,5 +16,5 @@ Accepts prompts regarding PDB like querying searches, downloading pdb/cif files 
 
 # How to add it to the browser
 1. Download the repository
-2. 
-3. click on extensions -> Manage Extentions -> Load Unpacked -> Select the repository
+   
+2. click on extensions -> Manage Extentions -> Load Unpacked -> Select the repository
