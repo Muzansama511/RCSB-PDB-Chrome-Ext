@@ -1,0 +1,31 @@
+{
+  
+    "manifest_version": 3,
+    "name": "RCSB PDB Prompt Handler",
+    "version": "1.0",
+    "description": "A Chrome extension to open PDB and submit a prompt.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["https://*/*"],
+    "omnibox": {
+      "keyword": "PDB"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.rcsb.org/structure/*"], 
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "128": "icon128.png"
+    },
+    "action": {
+      "default_icon": {
+        "128": "icon128.png"
+      }
+    }
+  }
+  
